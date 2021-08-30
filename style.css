@@ -19,7 +19,7 @@ main {
 }
 
 .discs-container {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@ main {
 }
 
 .album-container {
-    width: calc((100% / 3) - 24px);
+    width: calc((100% / 4) - 24px);
     background-color: #2e3a46;
     margin: 12px;
     text-align: center;
