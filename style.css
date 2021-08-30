@@ -27,23 +27,22 @@ main {
 }
 
 .album-container {
-    width: calc((100% / 4) - 24px);
+    width: calc((100% / 5) - 24px);
     background-color: #2e3a46;
     margin: 12px;
     text-align: center;
 }
 
-.inner {padding: 32px;}
+.inner {padding: 24px;}
 
 .inner > h2 {
     color: white;
-    margin: 12px 0;
+    margin: 12px 0 24px 0;
     font-size: 22px;
 }
 
 .inner > p {
     padding: 2px 0;
     color: #717264;
-    font-weight: bold;
 }
 
