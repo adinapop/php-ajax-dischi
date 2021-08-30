@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wd {width: 100%;}
+
+nav {
+    background-color: #2e3a46;
+    padding: 12px;
+}
+
+.logo-spotify {width: 100px;}
+
+main {
+    width: 100%;
+    background-color: #1e2d3b;
+}
+
+.discs-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+.album-container {
+    width: calc((100% / 3) - 24px);
+    background-color: #2e3a46;
+    margin: 12px;
+    text-align: center;
+}
+
+.inner {padding: 32px;}
+
+.inner > h2 {
+    color: white;
+    margin: 12px 0;
+    font-size: 22px;
+}
+
+.inner > p {
+    padding: 2px 0;
+    color: #717264;
+    font-weight: bold;
+}
+
