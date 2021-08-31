@@ -42,8 +42,9 @@ al caricamento della pagina ci saranno tutti i dischi.
                     <img class="wd" src="<?php echo "{$disc['poster']}";?>" alt="<?php echo "{$disc['title']} Poster";?>">
                     <h2>
                         <?php
-                         $toUpper = $disc['title'];
-                         echo strtoupper($toUpper);
+                        //  $toUpper = $disc['title'];
+                        //  echo strtoupper($toUpper);
+                        echo strtoupper($disc['title']);
                          ?>
                     </h2>
                     <p><?php echo "{$disc['author']}";?></p>
