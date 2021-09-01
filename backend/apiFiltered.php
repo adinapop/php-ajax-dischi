@@ -13,6 +13,6 @@ $filteredDiscsDb = array_filter($discs, function($disc) use($genreType) {
 
 // function to print the filtered array in Json content-type
 printJson($filteredDiscsDb);
-var_dump($filteredDiscsDb);
+// var_dump($filteredDiscsDb);
 
 ?>
